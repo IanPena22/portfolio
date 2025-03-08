@@ -1,5 +1,5 @@
 Body {
-    background-image: url(kwak2.jpg)
+    background-color: steelblue;
 }
     
 LI {
@@ -158,16 +158,17 @@ LI {
 .m1{
     box-shadow: 6px 6px lightblue;
     position: relative;
-    bottom: 200px;
-    left: 450px;
+    bottom: 150px;
+    left: 500px;
     z-index: 2;
     
 }
 .m2{
-    box-shadow: 5px 5px yellow;
+    box-shadow: 5px 5px lightblue;
     position: relative;
-    bottom: 210px;
+    bottom: 1px;
     left: 250px;
+    
 }
 .m3{
     box-shadow:4px 4px violet;
@@ -179,3 +180,4 @@ LI {
 .fb:hover{
     background-color: aqua;
 }
+
