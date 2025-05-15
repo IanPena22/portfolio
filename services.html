@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
   <link rel="stylesheet" href="main.css">
-  <title>Skills</title>
+  <title>Christian Olayres - Skills</title>
 </head>
 <body>
   <section id="header">
@@ -21,7 +24,7 @@
           </div>
           <ul>
             <li><a href="index.html" data-after="Home">Home</a></li>
-            <li><a href="services.html" data-after="Service">TechStack</a></li>
+            <li><a href="services.html" data-after="Service">Tech Stack</a></li>
             <li><a href="project.html" data-after="project">About Me</a></li>
             <li><a href="contact.html" data-after="Contact">Contact</a></li>
           </ul>
@@ -38,47 +41,47 @@
       </div>
       <div class="service-bottom">
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/html-5.png"/></div>
+          <div class="icon"><i class="devicon-html5-plain colored"></i></div>
           <h2>HTML</h2>
           <p>Proficient in creating structured web pages using HTML5</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/css3.png"/></div>
+          <div class="icon"><i class="devicon-css3-plain colored"></i></div>
           <h2>CSS</h2>
           <p>Skilled in styling web pages with CSS3 and responsive design</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/javascript.png"/></div>
+          <div class="icon"><i class="devicon-javascript-plain colored"></i></div>
           <h2>JavaScript</h2>
           <p>Basic knowledge of JavaScript for interactive web elements</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="java.png"/></div>
+          <div class="icon"><i class="devicon-java-plain colored"></i></div>
           <h2>Java</h2>
           <p>Experience in Java programming and object-oriented concepts</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="c-.png"/></div>
+          <div class="icon"><i class="devicon-c-plain colored"></i></div>
           <h2>C</h2>
           <p>Knowledge of C programming and low-level concepts</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/c-sharp-logo.png"/></div>
+          <div class="icon"><i class="devicon-csharp-plain colored"></i></div>
           <h2>C#</h2>
           <p>Familiarity with C# and .NET framework</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/sql.png"/></div>
+          <div class="icon"><i class="devicon-mysql-plain colored"></i></div>
           <h2>SQL</h2>
           <p>Database management and querying with SQL</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/design.png"/></div>
+          <div class="icon"><i class="devicon-figma-plain colored"></i></div>
           <h2>UI/UX</h2>
           <p>Understanding of UI/UX principles and design concepts</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/></div>
+          <div class="icon"><i class="devicon-git-plain colored"></i></div>
           <h2>Git</h2>
           <p>Version control and collaboration using Git</p>
         </div>
@@ -94,16 +97,24 @@
       <h2>My Personal Portfolio</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="https://www.facebook.com/ian.pena.9216"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png"/></a>
+          <a href="https://www.linkedin.com/in/christian-olayres-ab1290366/"><img src="linked.png"/></a>
         </div>
         <div class="social-item">
-          <a href="https://www.instagram.com/ipena.22/"><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://github.com/IanPena2"><img src="github.png"/></a>
+          <a href="https://github.com/IanPena2"><i class="devicon-github-original colored" style="font-size: 30px;"></i></a>
         </div>
       </div>
     </div>
   </section>
+  <script>
+  const pogi = document.querySelector('.pogi');
+  const navList = document.querySelector('.nav-list ul');
+
+  pogi.addEventListener('click', () => {
+    pogi.classList.toggle('active');
+    navList.classList.toggle('active');
+  });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="main.css">
-  <title>About Me</title>
+  <title>Christian Olayres - About Me</title>
 </head>
 <body>
   <section id="header">
@@ -21,7 +23,7 @@
           </div>
           <ul>
             <li><a href="index.html" data-after="Home">Home</a></li>
-            <li><a href="services.html" data-after="Service">TechStack</a></li>
+            <li><a href="services.html" data-after="Service">Tech Stack</a></li>
             <li><a href="project.html" data-after="project">About Me</a></li>
             <li><a href="contact.html" data-after="Contact">Contact</a></li>
           </ul>
@@ -96,10 +98,7 @@
       <h2>My Personal Portfolio</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="https://www.facebook.com/ian.pena.9216"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://www.instagram.com/ipena.22/"><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"/></a>
+          <a href="https://www.linkedin.com/in/christian-olayres-ab1290366/"><img src="linked.png"/></a>
         </div>
         <div class="social-item">
            <a href="https://github.com/IanPena2"><img src="github.png"/></a>
@@ -107,5 +106,16 @@
       </div>
     </div>
   </section>
+  <script>
+  const pogi = document.querySelector('.pogi');
+  const navList = document.querySelector('.nav-list ul');
+
+  pogi.addEventListener('click', () => {
+    pogi.classList.toggle('active');
+    navList.classList.toggle('active');
+  });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
 </body>
 </html>

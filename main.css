@@ -6,6 +6,10 @@ html {
 	scroll-behavior: smooth;
     background-color: black;
 }
+
+
+
+
 a {
 	text-decoration: none;
 }
@@ -21,6 +25,11 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
+.service-item .icon i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
 p {
 	color: white;
 	font-size: 1.4rem;
@@ -37,6 +46,8 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
+	margin-top: 100px;
+    text-align: center;
 }
 .section-title span {
 	color: #ff8800;
@@ -89,7 +100,8 @@ p {
 	height: 100%;
 	max-width: 1300px;
 	padding: 0 10px;
-    background-color:#040c0100 ;
+    background-color:#1B1212 ;
+
 }
 #header .nav-list ul {
 	list-style: none;
@@ -218,7 +230,6 @@ p {
 #intro .intro {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 50px;
 	justify-content: flex-start;
 }
 #intro h1 {
@@ -564,6 +575,7 @@ p {
 	height: 50px;
 	width: 50px;
 	margin: 0 5px;
+	
 }
 #footer .social-item img {
 	filter: grayscale(1);
@@ -609,12 +621,13 @@ p {
 	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
 	}
 	h1.section-title {
+		padding-top: 50px;
 		font-size: 6rem;
 	}
 
