@@ -40,19 +40,41 @@
     </div>
   </section>
 
-  <h1 class="section-title">Contact  Info</h1>
+  <main id="contact" class="contact-page">
+    <div class="contact-content">
+      <header class="contact-heading">
+        <p class="contact-eyebrow">Contact</p>
+        <h1>Let&rsquo;s <span>connect</span></h1>
+        <p>Open to On-the-Job Training (OJT) opportunities, internships, and entry-level roles in the Information Technology field. Passionate about software development, system design, and emerging technologies, I am eager to apply my technical knowledge, strengthen my programming and problem-solving skills, and gain hands-on experience in real-world IT environments. I look forward to collaborating with professionals, contributing to meaningful projects, and continuously growing as an aspiring IT professional.</p>
+      </header>
 
-  <section id="contact" class="slide-in-section">
-    <form action="#" method="post" style="max-width: 500px; margin: 20px auto 0; display: flex; flex-direction: column; gap: 15px;">
-      <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-      <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-      <textarea name="message" placeholder="Your Message" rows="5" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
-    </form>
-  </section>
-
-  <div class="cta-container" style="max-width: 500px; margin: 10px auto; text-align: center;">
-    <button class="portfolio-btn btn btn-primary" onclick="contactAlert()">Submit</button>
-  </div>
+      <section class="contact-card" aria-labelledby="professional-links-title">
+        <h2 id="professional-links-title">Professional links</h2>
+        <ul class="contact-link-list">
+          <li>
+            <img class="email-icon" src="email (2).png" alt="" aria-hidden="true">
+            <a href="mailto:christian.olayres@sdca.edu.ph">christian.olayres@sdca.edu.ph</a>
+          </li>
+          <li>
+            <img class="linkedin-icon" src="linked.png" alt="" aria-hidden="true">
+            <a href="https://www.linkedin.com/in/christian-olayres-ab1290366/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+          <li>
+            <img src="github.png" alt="" aria-hidden="true">
+            <a href="https://github.com/IanPena22" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+        </ul>
+        <div class="contact-social-links" aria-label="Social profiles">
+          <a href="https://www.linkedin.com/in/christian-olayres-ab1290366/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+            <img class="linkedin-icon" src="linked.png" alt="" aria-hidden="true">
+          </a>
+          <a href="https://github.com/IanPena22" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+            <img src="github.png" alt="" aria-hidden="true">
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
 
   <section id="footer">
     <div class="footer container">
@@ -70,19 +92,6 @@
       </div>
     </div>
   </section>
-
-  <script>
-    function contactAlert() {
-      Swal.fire({
-        title: 'Message Sent!',
-        text: 'Thanks for reaching out.',
-        icon: 'success',
-        confirmButtonText: 'OK'
-      });
-    }
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <script>
     const pogi = document.querySelector('.pogi');

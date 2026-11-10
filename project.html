@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="main.css">
   <title>Christian Olayres - About Me</title>
 </head>
@@ -32,63 +30,250 @@
     </div>
   </section>
 
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">About <span>Me</span></h1>
+  <main id="projects" class="portfolio-page">
+    <section class="journey-intro">
+      <p class="eyebrow">Christian P. Olayres · St. Dominic College of Asia</p>
+      <h1 class="section-title">About <span>Me</span></h1>
+      <p class="journey-lead">My learning journey through technology certifications, IoT projects, and academic milestones.</p>
+      <nav class="journey-nav" aria-label="About page sections">
+        <a href="#profile">Profile</a>
+        <a href="#certifications">Certifications &amp; Courses</a>
+        <a href="#iot-project">IoT Project</a>
+        <a href="#capstone">Capstone</a>
+        <a href="#course-projects">Course Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#competitions">Competitions</a>
+        <a href="#leadership">Leadership</a>
+      </nav>
+    </section>
+
+    <section class="journey-section profile-section" id="profile">
+      <div class="profile-photo">
+        <img src="ian.jpg" alt="Christian P. Olayres" loading="lazy">
       </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Biography</h1>
-            <h2>Personal Information</h2>
-            <p>My name is Christian P. Olayres.<b>I am a dedicated and hardworking individual who always strives to do my best in everything I do.</b> I enjoy learning new things and constantly seek ways to improve myself both personally and academically.  <b>In my free time, I like exploring different interests, whether it’s through reading, working on personal projects, or helping others.</b> I am currently <b>21 years old studying at St. Dominic College of Asia. </b><b></b>I believe that staying positive and focused can lead to success in any path I choose.
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="ian.jpg" alt="img"style="opacity: 1;">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Personal Aspirations</h1>
-            <h2>Passion</h2>
-            <p>I aspire to become a highly skilled and innovative software developer, capable of building impactful solutions that solve real-world problems. My goal is to specialize in full-stack development and eventually lead a team of developers in creating scalable web applications. I'm passionate about continuous learning and staying updated with the latest technologies. In the long term, I hope to contribute to open-source projects and mentor upcoming developers.
-
-
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="backend.jpg" alt="img"style="opacity: 1;">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Achievements</h1>
-            
-            <p>This is my first certification in Microsoft Office Specialist in Word 2019.
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="cert1-1.png" alt="img"style="opacity: 1;">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Certifications</h1>
-            <h2>Opportunies don't happen, you create them</h2>
-            <p>The achievements, successes or accomplishments we gain in school are the part of best school life years. Those achievements in middle, high school or college student life may include personal academic achievements and sports or extracurricular achievements.
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="cert2-1.png" alt="img"style="opacity: 1;">
-          </div>
-        </div>
-
-        </div>
+      <div class="profile-copy">
+        <p class="eyebrow">A little about me</p>
+        <h2>Curious, <span>driven, and always learning</span></h2>
+        <p>I am Christian P. Olayres, an Information Technology student at St. Dominic College of Asia. I am passionate about technology, continuous learning, and developing my technical skills. I strive to gain practical experience through academic and personal projects while continuously improving my knowledge, problem-solving abilities, and professional growth.</p>
+        <h3>My aspirations</h3>
+        <p>I aspire to become a skilled software developer focused on building useful, real-world solutions. I am especially interested in full-stack development, continuous learning, contributing to open-source projects, and mentoring future developers.</p>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="journey-section" id="certifications">
+      <div class="journey-heading">
+        <p class="eyebrow">Learning &amp; development</p>
+        <h2>Certifications <span>&amp; Courses</span></h2>
+        <p>Credentials and course completions documented in my certificates. Select an image to view the full certificate.</p>
+      </div>
+      <div class="credential-grid">
+        <article class="credential-card">
+          <a class="evidence-image" href="cert1-1.png" target="_blank" rel="noopener">
+            <img src="cert1-1.png" alt="Microsoft Office Specialist Word 2019 Associate certificate" loading="lazy">
+          </a>
+          <div class="credential-copy">
+            <span class="credential-type">Certification</span>
+            <h3>Microsoft Office Specialist: Word 2019 Associate</h3>
+            <p>Microsoft · March 12, 2024</p>
+          </div>
+        </article>
+        <article class="credential-card">
+          <a class="evidence-image" href="cert2-1.png" target="_blank" rel="noopener">
+            <img src="cert2-1.png" alt="Microsoft Office Specialist PowerPoint 2019 Associate certificate" loading="lazy">
+          </a>
+          <div class="credential-copy">
+            <span class="credential-type">Certification</span>
+            <h3>Microsoft Office Specialist: PowerPoint 2019 Associate</h3>
+            <p>Microsoft · May 30, 2024</p>
+          </div>
+        </article>
+        <article class="credential-card">
+          <a class="evidence-image" href="Ian%20portfolio%20pics/achievment%2016.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/achievment%2016.jpg" alt="Certiport Information Technology Specialist Database certificate" loading="lazy">
+          </a>
+          <div class="credential-copy">
+            <span class="credential-type">Certification</span>
+            <h3>Information Technology Specialist: Databases</h3>
+            <p>Certiport · May 7, 2025</p>
+          </div>
+        </article>
+        <article class="credential-card">
+          <a class="evidence-image" href="Ian%20portfolio%20pics/achievment%2017.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/achievment%2017.jpg" alt="Certiport Information Technology Specialist HTML and CSS certificate" loading="lazy">
+          </a>
+          <div class="credential-copy">
+            <span class="credential-type">Certification</span>
+            <h3>Information Technology Specialist: HTML and CSS</h3>
+            <p>Certiport · February 4, 2026</p>
+          </div>
+        </article>
+        <article class="credential-card">
+          <a class="evidence-image" href="Ian%20portfolio%20pics/achievment%2018.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/achievment%2018.jpg" alt="Cisco Networking Academy Introduction to IoT and Digital Transformation course certificate" loading="lazy">
+          </a>
+          <div class="credential-copy">
+            <span class="credential-type">Course completion</span>
+            <h3>Introduction to IoT and Digital Transformation</h3>
+            <p>Cisco Networking Academy · May 24, 2026</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey-section" id="iot-project">
+      <div class="journey-heading">
+        <p class="eyebrow">Connected systems</p>
+        <h2>IoT <span>Project</span></h2>
+        <p>A BLE beacon project focused on helping locate students inside the school.</p>
+      </div>
+      <article class="project-summary">
+        <h3>BLE Beacon-Based Student Locator</h3>
+        <p><strong>Objective:</strong> Help locate a student within the school using Bluetooth Low Energy (BLE) beacons.</p>
+        <p><strong>My contribution:</strong> Developed the app used to locate the student inside the school using beacon signals.</p>
+        <p><strong>Technologies/components:</strong> BLE beacons and a location app.</p>
+        <a class="section-link" href="#beacon-evidence">View beacon project photo</a>
+      </article>
+    </section>
+
+    <section class="journey-section" id="capstone">
+      <div class="journey-heading">
+        <p class="eyebrow">Featured academic project</p>
+        <h2>Capstone <span>Project</span></h2>
+        <p>A team project documented in the capstone poster and presentation photos.</p>
+      </div>
+      <article class="feature-project">
+        <div class="feature-copy">
+          <span class="project-status">Capstone · defense and exhibit photos available</span>
+          <h3>Real-Time Asset Movement Monitoring and Inventory Management</h3>
+          <p>The project poster describes an RFID-based system for tracking tagged assets, monitoring movement, and supporting inventory management through a dashboard, logs, and alerts.</p>
+          <h4>Objectives</h4>
+          <ul>
+            <li>Track tagged assets and their movement in real time.</li>
+            <li>Support inventory monitoring with a dashboard, logs, and alerts.</li>
+            <li>Evaluate the system's performance.</li>
+          </ul>
+          <h4>Technologies &amp; components shown</h4>
+          <p>RFID tags and reader hardware, with a web-based monitoring and inventory dashboard.</p>
+          <h4>Team</h4>
+          <p>Christian P. Olayres, Audrin Alan Palado, Jade Sandara Pasco, and Art Nymrah Timazon.</p>
+          <h4>My role</h4>
+          <p>Front-end developer. I also helped ensure that the project paper and system worked.</p>
+          <p class="details-note">The available photos document the project defense and exhibit; a more specific final status was not provided.</p>
+        </div>
+        <div class="project-gallery">
+          <a href="Ian%20portfolio%20pics/CAPSTONE%20RFID.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/CAPSTONE%20RFID.jpg" alt="Capstone team with the RFID asset tracking poster and prototype" loading="lazy">
+            <span>Project poster and prototype</span>
+          </a>
+          <a href="Ian%20portfolio%20pics/CAPSTONE%20GROUP%20DEFENSE.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/CAPSTONE%20GROUP%20DEFENSE.jpg" alt="Capstone team presenting the asset monitoring project" loading="lazy">
+            <span>Capstone presentation</span>
+          </a>
+          <a href="Ian%20portfolio%20pics/DEFENDING.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/DEFENDING.jpg" alt="Capstone defense presentation" loading="lazy">
+            <span>Defense</span>
+          </a>
+          <a href="Ian%20portfolio%20pics/group%20project%201.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/group%20project%201.jpg" alt="Capstone group with the asset monitoring project poster" loading="lazy">
+            <span>Capstone group photo</span>
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <section class="journey-section" id="course-projects">
+      <div class="journey-heading">
+        <p class="eyebrow">Academic work</p>
+        <h2>Third-Year <span>Course Projects</span></h2>
+        <p>Additional academic project artifacts found in the portfolio folder. Details not available in the files are identified as needing confirmation.</p>
+      </div>
+      <div class="artifact-grid">
+        <article class="artifact-card">
+          <a class="evidence-image" href="Ian%20portfolio%20pics/IOT%20DOMINIMAP.png" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/IOT%20DOMINIMAP.png" alt="DominiMap sign-in screen with student and admin options" loading="lazy">
+          </a>
+          <div class="credential-copy">
+            <h3>DominiMap</h3>
+            <p>A past group project. The available screen shows a sign-in page with student and admin roles.</p>
+          </div>
+        </article>
+        <article class="artifact-card">
+          <a class="evidence-image" href="Ian%20portfolio%20pics/IOT%20DOMINIMAP%20group.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/IOT%20DOMINIMAP%20group.jpg" alt="DominiMap project group at an academic event" loading="lazy">
+          </a>
+          <div class="credential-copy">
+            <h3>DominiMap Project Group</h3>
+            <p>Photo of my past group for the DominiMap project.</p>
+          </div>
+        </article>
+        <article class="artifact-card" id="beacon-evidence">
+          <a class="evidence-image" href="Ian%20portfolio%20pics/BLE%20BEACONS%20IOT.jpg" target="_blank" rel="noopener">
+            <img src="Ian%20portfolio%20pics/BLE%20BEACONS%20IOT.jpg" alt="BLE beacon devices used for the student-location IoT project" loading="lazy">
+          </a>
+          <div class="credential-copy">
+            <h3>BLE Beacon Project Evidence</h3>
+            <p>Beacon devices used in the indoor student-location project. My contribution was developing the location app.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey-section" id="achievements">
+      <div class="journey-heading">
+        <p class="eyebrow">Participation &amp; recognition</p>
+        <h2>Other <span>Achievements</span></h2>
+        <p>Certificates in the folder document participation in research, training, and outreach events. Open an image to view its certificate.</p>
+      </div>
+      <div class="milestone-list">
+        <article class="milestone">
+          <div><h3>4th SDCA International Multidisciplinary Research Conference 2024 — Day 2, Morning Session</h3><p>St. Dominic College of Asia · May 23, 2024</p></div>
+          <a href="Ian%20portfolio%20pics/achievment%2010.jpg" target="_blank" rel="noopener">View certificate</a>
+        </article>
+        <article class="milestone">
+          <div><h3>4th SDCA International Multidisciplinary Research Conference 2024 — Day 3</h3><p>St. Dominic College of Asia · May 24, 2024</p></div>
+          <a href="Ian%20portfolio%20pics/achievment%2011.jpg" target="_blank" rel="noopener">View certificate</a>
+        </article>
+        <article class="milestone">
+          <div><h3>Global Classroom Sessions: Global Trends and Practices — Day 1</h3><p>St. Dominic College of Asia · May 21, 2024</p></div>
+          <a href="Ian%20portfolio%20pics/achievment%2013.jpg" target="_blank" rel="noopener">View certificate</a>
+        </article>
+        <article class="milestone">
+          <div><h3>PROBERS Outreach Activity: “Word It With Us” MS Word Workshop</h3><p>St. Dominic College of Asia · April 8, 2024</p></div>
+          <a href="Ian%20portfolio%20pics/achievment%2014.jpg" target="_blank" rel="noopener">View certificate</a>
+        </article>
+        <article class="milestone">
+          <div><h3>eGovPH Super App Orientation</h3><p>DICT Region IV-A · May 29, 2024</p></div>
+          <a href="Ian%20portfolio%20pics/achievment%2012.jpg" target="_blank" rel="noopener">View certificate</a>
+        </article>
+        <article class="milestone">
+          <div><h3>Digital Startup Development and Acceleration Program Caravan</h3><p>DICT Region IV-A · May 29, 2024</p></div>
+          <a href="Ian%20portfolio%20pics/achievment%2015.jpg" target="_blank" rel="noopener">View certificate</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey-section" id="competitions">
+      <div class="journey-heading">
+        <p class="eyebrow">Contests &amp; recognition</p>
+        <h2>Competitions <span>&amp; Awards</span></h2>
+        <p>Academic recognition and competition results.</p>
+      </div>
+      <div class="milestone-list">
+        <article class="milestone">
+          <div><h3>Dean's List 1</h3><p>First Semester, Academic Year 2025–2026 · Certificate of Recognition presented April 27, 2026</p></div>
+          <a href="Ian%20portfolio%20pics/deans%20list%201.jpg" target="_blank" rel="noopener">View certificate</a>
+        </article>
+        <article class="milestone">
+          <div><h3>Dean's List 2</h3><p>First Semester, Academic Year 2025–2026 · Certificate presentation photo</p></div>
+          <a href="Ian%20portfolio%20pics/deans%20list%202.jpg" target="_blank" rel="noopener">View photo</a>
+        </article>
+        <article class="milestone">
+          <div><h3>Dean's List 3</h3><p>Academic Year 2023–2024 · Recognition slide lists GPAs of 93.50 (first semester) and 94.97 (second semester)</p></div>
+          <a href="Ian%20portfolio%20pics/deans%20list%203.jpg" target="_blank" rel="noopener">View photo</a>
+        </article>
+      </div>
+    </section>
+  </main>
 
   <section id="footer">
     <div class="footer container">
@@ -115,7 +300,5 @@
     navList.classList.toggle('active');
   });
 </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
 </body>
 </html>
